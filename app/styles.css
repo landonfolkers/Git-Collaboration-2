@@ -1,15 +1,15 @@
 header {
   display: block;
-  grid-template-columns: repeat(5, 1fr);
-  grid-gap: 5px;
-  align-items: center;
-  border-bottom: .3rem solid red;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 4px;
+  align-items: left;
+  border-bottom: .3rem solid darkgrey;
 }
 
 h1 {
   grid-column: 1/span 2;
   margin-left: 1rem;
-  color: orange;
+  color: black;
 }
 
 nav {
@@ -17,7 +17,7 @@ nav {
 }
 
 nav a {
-  text-decoration: overline;
-  color: blue;
-  font-size: 2pt;
+  text-decoration: none;
+  color: black;
+  font-size: 34px;
 }
