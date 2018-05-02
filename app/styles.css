@@ -1,9 +1,9 @@
 header {
   display: block;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-gap: 5px;
   align-items: center;
-  border-bottom: .3rem solid darkgrey;
+  border-bottom: .3rem solid red;
 }
 
 h1 {
@@ -13,11 +13,11 @@ h1 {
 }
 
 nav {
-  grid-column: 2/ span 2;
+  grid-column: 2/ span 1;
 }
 
 nav a {
-  text-decoration: none;
-  color: orange;
-  font-size:
+  text-decoration: overline;
+  color: blue;
+  font-size: 2pt;
 }
